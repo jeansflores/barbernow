@@ -49,6 +49,16 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+.auth-wrapper form p {
+  padding: 0 15px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  display: block;
+  text-align: center;
+  color: #7159c1;
+  font-weight: bold;
+}
+
 .auth-wrapper form > img {
   margin-bottom: 20px;
 }
