@@ -1,0 +1,12 @@
+version: "3.3"
+
+services:
+  db:
+    image: postgres:alpine
+    container_name: barbernow-db
+    environment:
+      POSTGRES_DB: barbernow
+      POSTGRES_USER: barbernow
+      POSTGRES_PASSWORD: secret
+    ports:
+      - 5432:5432
